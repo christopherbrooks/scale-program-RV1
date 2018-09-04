@@ -11,10 +11,11 @@ whole_tone = [0, 2, 4, 6, 8, 10]
 chromatic = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 
 patterns = [diatonic, harm_maj, harm_min, acoustic, hexatonic, octatonic, whole_tone, chromatic]
-scale_pattern = random.choice(patterns)
+
+# scale_pattern = random.choice(patterns)
 
 
-print (scale_pattern)
-length_scale_pattern = len (scale_pattern)
-print (length_scale_pattern)
+# print (scale_pattern)
+# length_scale_pattern = len (scale_pattern)
+# print (length_scale_pattern)
 
